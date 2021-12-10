@@ -3,6 +3,7 @@ body		{	background-color: #92A8D1;
 				font-family: Arial, sans-serif;
 }
 header		{	background-color: #4b70b4;
+				text-align: center;
 				line-height: 150px;
 				padding-left: 2em;
 				padding-right: 2em;
@@ -32,8 +33,16 @@ footer		{	background-color: #4b70b4;
 img			{	padding-left: 10px;
 				padding-right: 10px;
 }
+nav			{	text-align: center;
+				font-size: 1.5em;
+				font-weight: bold;
+}
 #codeblock	{	background-color: #eee;
 				border: 1px solid #999;
 				display: block;
 				padding: 20px;
+}
+#othertext	{	text-align: center;
+				font-size: 1.5em;
+				font-weight: bold;
 }

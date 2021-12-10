@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sample</title>
+<link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+<div id=sample>
+	<header>
+		<h1>Sample Code</h1>
+			<nav>
+				<a href="index.html">Home</a>&nbsp;
+				<a href="sample.html">Sample Code</a>&nbsp;
+				<a href="about.html">Other Info</a>&nbsp;
+			</nav>
+	</header>
+	<p>
+		Below you'll see a very basic FizzBuzz program I created to share
+		for this project.
+	</p>
+	
+	<div id="codeblock">
+					<pre>
+						<code>
+							function fizzbuzz() {
+								var display = document.getElementById('display');
+								var displayHTML = "";
+								for (i = 1; i < 101; i++) {
+									if (i % 15 == 0){
+										displayHTML += "&#60;p&#62;" + "FizzBuzz" + "&#60;p&#62;";
+									}
+									else if (i % 3 == 0) {
+										displayHTML += "&#60;p&#62;" + "Fizz" + "&#60;p&#62;";
+									}
+									else if (i % 5 == 0) {
+										displayHTML += "&#60;p&#62;" + "Buzz" + "&#60;p&#62;";
+									}
+									else {
+										displayHTML += "&#60;p&#62;" + i + "&#60;p&#62;";
+									}
+			
+								}
+								display.innerHTML = displayHTML
+							}
+						</code>
+					</pre>
+					
+	</div>
+	<img src="https://www.tutorialcup.com/wp-content/uploads/2020/06/FizzBuzz.png?ezimgfmt=ng%3Awebp%2Fngcb41%2Frs%3Adevice%2Frscb41-1" alt="FizzBuzz Solution">
+
+	<footer>
+			Copyright © 2021<br>
+			Brian@Hurley.com
+	</footer>
+</div>
+</body>
+
+</html>
