@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hurlzzz</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div id="div1">
+		<header>
+			<h1>Hello There! I'm Hurlzzz</h1>
+		</header>
+		<main>
+			<h3>About Me &#128373;</h3>
+			<ul>
+				<li>Aspiring Developer &#128187;</li>
+				<li>Mediocre Fantasy Baseball Player &#9918;</li>
+				<li>Former Guitar Hero &#127928;</li>
+				<li>Expensive Cardboard Collector &#127924;</li>
+				<li>GeoGuessr Enthusiast &#127758;</li>
+				<li>Looking to eventually RULE THE WORLD &#128081;</li>
+			</ul>
+			<img src="starwars.gif" alt="Darth Vader">
+			
+			<div id="other">
+				<h3>Other Information &#128172;</h3>
+				<p>
+					The purpose of this is to fulfill a class requirement,
+					but to also learn a little more about how things work <br>
+					in the developement space with Github. I don't have any
+					previous experience with sharing work like this so it's <br>
+					interesting to see the processes behind it. Below you'll
+					see a very basic FizzBuzz program I created to share <br>
+					for this project. <br>
+				</p>
+			</div>
+			<div id="codeblock">
+				<pre>
+					<code>
+						function fizzbuzz() {
+							var display = document.getElementById('display');
+							var displayHTML = "";
+							for (i = 1; i < 101; i++) {
+								if (i % 15 == 0){
+									displayHTML += "&#60;p&#62;" + "FizzBuzz" + "&#60;p&#62;";
+								}
+								else if (i % 3 == 0) {
+									displayHTML += "&#60;p&#62;" + "Fizz" + "&#60;p&#62;";
+								}
+								else if (i % 5 == 0) {
+									displayHTML += "&#60;p&#62;" + "Buzz" + "&#60;p&#62;";
+								}
+								else {
+									displayHTML += "&#60;p&#62;" + i + "&#60;p&#62;";
+								}
+		
+							}
+							display.innerHTML = displayHTML
+						}
+					</code>
+				</pre>
+				
+			</div>
+			<img src="https://www.tutorialcup.com/wp-content/uploads/2020/06/FizzBuzz.png?ezimgfmt=ng%3Awebp%2Fngcb41%2Frs%3Adevice%2Frscb41-1" alt="FizzBuzz Solution">
+		</main>
+		<footer>
+			Copyright © 2021<br>
+			Brian@Hurley.com
+		</footer>
+	</div>
+</body>
+</html>
